@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yves Nieto</title>
+
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/aos.css">
+  <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <!--NAVBAR-->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container flex-lg-column">
+      <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+        <span class="h3 fw-bold d-block d-lg-none">Yves Nieto</span>
+        <img src="./assets/images/pfp.jpeg" class="d-none d-lg-block rounded-circle" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--//NAVBAR-->
+
+  <!--CONTENT WRAPPER-->
+  <div id="content-wrapper"> 
+    <!--HOME-->
+    <section id="home" class="full-height px-lg-5 ">
+      
+      <div class="container"> 
+        <div class="row">
+          <div class="col-lg-8">
+            <h1 class="display-4 fw-bold" data-aos="fade-up">I'M A <span class="text-brand">NJIT STUDENT</span> FROM NEWARK, NJ</h1>
+            <p class="lead mt-2 mb-4"data-aos="fade-up" data-aos-delay="300">I am Yves Nieto an ambitious computer science student skilled in 3+ languages as well as CAD software.</p>
+            <div data-aos="fade-up" data-aos-delay="600">
+            <a href="#portfolio" class="btn btn-brand me-3"> Explore My Portfolio</a>
+            <a href="tel:+1862-900-2232" class="link-custom">Call: (862) 900 2232</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!--//HOME-->
+
+    <!--PORTFOLIO-->
+    <section id="portfolio" class="full-height px-lg-5">
+      <div class="container">
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-8" >
+            <h6 class="text-brand">PORTFOLIO</h6>
+            <h1>My Recent Projects</h1>
+          </div>
+        </div>
+        <!--SmartFood-->
+        <div class="row gy-4">
+          <div class="col-md-6" data-aos="fade-up" >
+            <div class="card-custom rounded-4 bg-base shadow-effect">
+              <div class="card-custom-image rounded-4">
+                <img class="rounded-4" src="./assets/images/smartfoodfull.png" alt="">
+              </div>
+              <div class="card-custom-content p-4">
+                <h4>Smart Food</h4>
+                <p>A Smart Food dispenser for pets!</p>
+                <a href="./smartFood.html" class="link-custom">Read More</a>
+              </div>
+            </div>
+            </div>
+            <!--Hospital Database-->
+            <div class="col-md-6" data-aos="fade-up" >
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img class="rounded-4" src="./assets/images/eerdiagram.png" alt="">
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Hospital Database</h4>
+                  <p>Using Oracle Database, I designed a fully functioning Hospital Database.</p>
+                  <a href="./database.html" class="link-custom">Read More</a>
+                </div>
+              </div>
+              </div>
+              <!--Camp Hare-->
+              <div class="col-md-6" data-aos="fade-up" >
+                <div class="card-custom rounded-4 bg-base shadow-effect">
+                  <div class="card-custom-image rounded-4">
+                    <img class="rounded-4" src="./assets/images/camphare.png" alt="">
+                  </div>
+                  <div class="card-custom-content p-4">
+                    <h4>Camp Hare</h4>
+                    <p>HackNJIT 2022 Group Submission. Most Liked!!</p>
+                    <a href="./camphare.html" class="link-custom">Read More</a>
+                  </div>
+                </div>
+                </div>
+        </div>
+
+      </div>
+    </section>
+    <!--//PORTFOLIO-->
+        <!-- CONTACT -->
+        <section id="contact" class="full-height px-lg-5">
+          <div class="container">
+
+              <div class="row justify-content-center text-center">
+                  <div class="col-lg-8 pb-4" data-aos="fade-up">
+                      <h6 class="text-brand">CONTACT</h6>
+                      <h1>Interested in working together? Let's talk
+                      </h1>
+                  </div>
+
+                  <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
+                      <form action="#" class="row g-lg-3 gy-3" name="contact" method="POST" data-netlify="true" onsubmit="submit">
+                          <div class="form-group col-md-6">
+                              <input type="text" class="form-control" placeholder="Enter your name" name="name">
+                          </div>
+                          <div class="form-group col-md-6">
+                              <input type="email" class="form-control" placeholder="Enter your email" name="email">
+                          </div>
+                          <div class="form-group col-12">
+                              <input type="text" class="form-control" placeholder="Enter subject" name="subject">
+                          </div>
+                          <div class="form-group col-12">
+                              <label class="w-100"><textarea name="message" rows="4" class="form-control" placeholder="Enter your message"></textarea></label>
+                          </div>
+                          <div class="form-group col-12 d-grid">
+                              <button type="submit" class="btn btn-brand">Contact me</button>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- //CONTACT -->
+
+      <!-- FOOTER -->
+      <footer class="py-5 px-lg-5">
+          <div class="container">
+              <div class="row gy-4 justify-content-between">
+                  <div class="col-auto">
+                      <p class="mb-0">Designed by <a href="#" class="fw-bold">Yves Nieto</a></p>
+                  </div>
+                  <div class="col-auto">
+                      <div class="social-icons">
+                          <a href="https://www.linkedin.com/in/yvesnieto/" target="_blank"><i class="lab la-linkedin"></i></a>
+                          <a href="https://github.com/WalrusGaming12" target="_blank"><i class="lab la-github"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </footer>
+      <!-- //FOOTER -->
+
+  </div>
+  <!--//CONTENT WRAPPER -->
+
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/aos.js"></script>
+  <script src="./assets//js/main.js"></script>
+</body>
+
+</html>
